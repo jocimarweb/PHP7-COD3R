@@ -13,6 +13,7 @@
 
         <!-- CSS - Personalizado -->
         <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/exercise.css">
 
         <title>Curso PHP 7 - COD3R </title>
     </head> <!-- # Head -->
@@ -35,7 +36,7 @@
                     <div class="modulo verde">
                         <h3>Módulo 01</H3>
                         <ul>
-                            <li><a href="#">Exercício A</a></li>
+                            <li><a href="pages/exercicio.php">Exercício A</a></li>
                             <li><a href="#">Exercício B</a></li>
                             <li><a href="#">Exercício C</a></li>
                         </ul>
@@ -118,7 +119,7 @@
 
         <!-- Rodapé  -->
         <footer class="rodape">
-            COD3R & ALUNOS &copy; 2019
+            COD3R & ALUNOS &copy; <?= date('Y'); ?>
         </footer> <!-- # Rodapé  -->
     </body>
 
