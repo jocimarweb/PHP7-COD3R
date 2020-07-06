@@ -2,11 +2,6 @@
 include('../includes/head.php');
 ?>
 
-<!-- CSS - Personalizado -->
-<link rel="stylesheet" href="assets/css/style.css">
-
-<title>Curso PHP 7 - COD3R </title>
-</head> <!-- # Head -->
 <!-- Body -->
 
 <body class="exercicio">
@@ -22,6 +17,18 @@ include('../includes/head.php');
         <a href="#" class="verde">Sem Formatação</a>
         <a href="#" class="vermelho">Voltar</a>
     </nav> <!-- # Conteúdo Principal -->
+    <!-- Conteúdo Principal - Main -->
+    <main class="principal">
+        <div class="conteudo">
+            <?php 
+            include('../teste/teste.php');
+            // include($_GET['dir'] . "/teste.php");
+            // include($_GET['dir'] . "/" . $_GET['file'] . ".php");
+            // include("{$_GET['dir']}/{$_GET['file']}.php");
+            // include(__DIR__ . "/{$_GET['dir']}/{$_GET['file']}.php");            
+        ?>
+        </div>
+    </main>
 
     <?php
 include('../includes/footer.php');
