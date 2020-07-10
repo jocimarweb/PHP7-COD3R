@@ -2,35 +2,28 @@
 include('../includes/head.php');
 ?>
 
-<!-- Body -->
-
 <body class="exercicio">
-    <!-- # Body -->
     <!-- Cabeçalho -->
     <header class="cabecalho">
         <h1>Curso PHP 7</h1>
         <h2>Visualização do Exercicio</h2>
     </header> <!-- # Cabeçalho -->
 
-    <!-- Conteúdo Principal -->
+    <!-- Nav -->
     <nav class="navegacao">
         <a href="../teste/teste.php" class="verde">Sem Formatação</a>
-        <!-- <a href="<?= "/{$_GET['dir']}/{$_GET['file']}.php" ?>" class="verde">Sem Formatação</a> -->
         <a href="../index.php" class="vermelho">Voltar</a>
-    </nav> <!-- # Conteúdo Principal -->
+    </nav> <!-- # Nav -->
+
     <!-- Conteúdo Principal - Main -->
     <main class="principal">
         <div class="conteudo">
             <?php 
             include('../teste/teste.php');
-            // include(__DIR__ . "/{$_GET['dir']}/{$_GET['file']}.php");
-            // include($_GET['dir'] . "/teste.php");
-            // include($_GET['dir'] . "/" . $_GET['file'] . ".php");
-            // include("{$_GET['dir']}/{$_GET['file']}.php");
         ?>
         </div>
-    </main>
+    </main> <!-- # Conteúdo Principal - Main -->
 
     <?php
-include('../includes/footer.php');
-?>
+    include('../includes/footer.php');
+    ?>
