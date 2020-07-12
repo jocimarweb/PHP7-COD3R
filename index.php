@@ -17,8 +17,8 @@
 
     <title>Curso PHP 7 - COD3R </title>
 </head> <!-- # Head -->
-<!-- Body -->
 
+<!-- Body -->
 <body>
     <!-- # Body -->
     <!-- Cabeçalho -->
@@ -58,6 +58,6 @@
     <footer class="rodape">
         COD3R & ALUNOS &copy; <?= date('Y'); ?>
     </footer> <!-- # Rodapé  -->
-</body>
+</body> <!-- Body -->
 
 </html>
