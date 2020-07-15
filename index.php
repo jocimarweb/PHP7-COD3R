@@ -17,8 +17,8 @@
 
     <title>Curso PHP 7 - COD3R </title>
 </head> <!-- # Head -->
-<!-- Body -->
 
+<!-- Body -->
 <body>
     <!-- # Body -->
     <!-- Cabeçalho -->
