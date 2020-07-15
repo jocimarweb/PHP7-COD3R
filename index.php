@@ -58,6 +58,6 @@
     <footer class="rodape">
         COD3R & ALUNOS &copy; <?= date('Y'); ?>
     </footer> <!-- # Rodapé  -->
-</body>
+</body> <!-- Body -->
 
 </html>
