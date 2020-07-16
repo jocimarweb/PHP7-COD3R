@@ -38,15 +38,25 @@
                     <h3>Módulo 01</H3>
                     <ul>
                         <li>
-                            <a href="exercicise.php?dir=basico&file=ola">
+                            <a href="exercise.php?dir=basico&file=ola">
                                 Olá PHP
                             </a>
                         </li>
                         <li>
-                            <a href="exercicise.php?dir=basico&file=html">
+                            <a href="exercise.php?dir=basico&file=html">
                                 Integração HTML - PHP
                             </a>
                         </li>
+                        <li>
+                            <a href="exercise.php?dir=basico&file=css">
+                                Integração HTML - CSS
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercise.php?dir=basico&file=comentarios">
+                                Comentários PHP
+                            </a>
+                        </li>                                                
                     </ul>
                 </div> <!-- # Nav - Modulo 01 -->
 

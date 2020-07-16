@@ -12,8 +12,8 @@
         rel="stylesheet">
 
     <!-- CSS - Personalizado -->
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="../assets/css/exercise.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/exercise.css">
 
     <title>Curso PHP 7 - COD3R</title>
 </head> <!-- # Head -->
